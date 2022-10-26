@@ -4,3 +4,11 @@ Area=S**2
 Perimeter=4*S
 print(Area)
 print(Perimeter)
+
+
+
+x="Hello"
+y="World"
+print(x)
+print(y)
+print(x+" "+y)
