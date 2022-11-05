@@ -1,0 +1,8 @@
+import sys
+print(sys.getrecursionlimit())
+def hello():
+    print("Hello Rishita Chauhan")
+    hello()
+hello()
+
+
