@@ -1,3 +1,26 @@
-p{
-    background-image: url("../images/doc.py");
+
+body{
+    
+    background-image: url(/images/tree.webp);
+    background: ;
+   
+}
+
+
+
+#p1{
+    border: 2px solid red;
+    border-style: dotted dotted solid  dotted;
+    background-color: black;
+    color: antiquewhite;
+}
+#h1{
+    border: 2px solid blue;
+    background-color: rgb(5, 55, 55);
+    color: antiquewhite;
+}
+#div1{
+    margin: 100px;
+    border: 2px solid rgb(34, 24, 222);
+    background-color: rgb(108, 165, 107);
 }
