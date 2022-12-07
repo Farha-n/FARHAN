@@ -13,7 +13,7 @@ num = string.digits
 symbols = string.punctuation
 
 #combine the data
-all = lower + upper + num + symbols
+all = lower + upper + num + symbols 
 
 #use randoms
 temp = random.sample(all,length)
