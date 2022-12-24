@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainDivID" class="mainDivClass">
+    
+        <h1 id="heading">Events and Handlers</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore possimus autem ea ad. Iusto ab quod mollitia! Omnis sequi, dolor voluptates, repellat eligendi praesentium necessitatibus ratione debitis non, nesciunt quos! Possimus error dignissimos voluptatum rerum! Pariatur beatae excepturi optio a accusantium? Sequi adipisci deserunt officiis corporis, quaerat sunt iste consectetur.</p>
+        <p>The current date time is : <span id="spanID">Change this text</span></p>
+        <input id="btn" type="button" value="submit">
+
+    </div>
+    <script>
+        let paragraph = document.getElementById("para");
+        let button = document.getElementById("btn")
+
+
+        // function greet()
+        // {
+        //     console.log("Hello world")
+        // }
+        // let Timeout = setTimeout(greet)
+        //let Interval= setInterval(greet,5000)
+        // clearInterval(Interval)
+
+        // function display()
+        // {
+        //     abc  = new Date();
+        //     console.log(abc);        
+        // }
+        // display()
+        function display()
+        {
+            let timedate = new Date();
+            console.log(timedate)
+            document.getElementById("spanID").innerHTML = timedate
+        }
+        setInterval(display,1000)
+
+       
+        
+</script>
+
+</body>
+</html>
