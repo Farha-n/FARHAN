@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Email : <input type="text" id="email" required>
+        Password : <input type="password" id="pass" required>
+        <button type="button" id="btn">Login</button>
+    </form>
+
+    <script>
+        let emailEntered = document.getElementById("email");
+        let passEntered = document.getElementById("pass");
+        let button = document.getElementById("btn")
+        
+        button.addEventListener("click", function(){
+            let email = emailEntered.value;
+            let password = passEntered.value;
+
+            if(email == "admin" && password == "password"){
+                //Do something here
+                console.log("Logged in successfully");
+                //window.open("abc.html");
+            }
+            else{
+                alert("wrong password");
+            }
+
+
+        });
+    </script>
+</body>
+</html>
